@@ -21,6 +21,7 @@ extension ViewController : UserDataDelagate, QuestionDataDelegate {
         Service.questionsRepo.fetchQuestionData()
         
         activityIndicators[0].stopAnimating()
+        errorLabel.text = ""
     }
     
     func onUserDataUpdateFailure() {
