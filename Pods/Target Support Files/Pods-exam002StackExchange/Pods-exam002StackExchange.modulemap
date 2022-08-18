@@ -1,0 +1,6 @@
+framework module Pods_exam002StackExchange {
+  umbrella header "Pods-exam002StackExchange-umbrella.h"
+
+  export *
+  module * { export * }
+}
